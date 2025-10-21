@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dotnet Circuit | Modern .NET Development Content</title>
+    <meta name="description" content="The central hub for Dotnet Circuit, your source for expert articles and newsletters on modern .NET, C#, and software architecture.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617; /* slate-950 */
+            background-image: radial-gradient(circle at top left, rgba(30, 64, 175, 0.2), transparent 40%),
+                              radial-gradient(circle at bottom right, rgba(132, 10, 132, 0.2), transparent 50%);
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.6); /* slate-800 with opacity */
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(51, 65, 85, 0.5); /* slate-700 with opacity */
+        }
+    </style>
+</head>
+<body class="text-slate-300">
+
+    <div class="min-h-screen flex flex-col items-center justify-center p-4 sm:p-6 lg:p-8">
+        <main class="max-w-3xl w-full mx-auto">
+
+            <!-- Header Section -->
+            <header class="text-center mb-12">
+                <!-- LOGO AREA: Replace 'YOUR_LOGO_URL_HERE' with a direct link to your logo image. -->
+                <div class="mb-6">
+                    <img src="https://placehold.co/200x200/020617/38bdf8?text=DC" alt="Dotnet Circuit Logo" class="mx-auto h-24 w-24 rounded-full border-2 border-slate-700 p-1">
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">
+                    Dotnet Circuit
+                </h1>
+                <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto">
+                    Your central hub for articles, guides, and newsletters on modern .NET development, C#, and software architecture.
+                </p>
+            </header>
+
+            <!-- Call to Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+                <a href="https://newsletter.dotnetcircuit.com" target="_blank" rel="noopener noreferrer" 
+                   class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3 border-2 border-blue-500">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.532 6.38L13.176.15C12.44-.25 11.56-.25 10.824.15L1.468 6.38c-.39.2-.624.57-.624.97v10.3c0 .4.234.77.624.97l9.356 6.23c.366.24.78.36 1.194.36s.828-.12 1.194-.36l9.356-6.23c.39-.2.624-.57.624-.97v-10.3c0-.4-.234-.77-.624-.97zM21.156 17.1L12 22.85 2.844 17.1v-9.6L12 1.65l9.156 5.85v9.6zM6.375 14.25h11.25v-1.5H6.375v1.5zm0-3h11.25v-1.5H6.375v1.5z"></path></svg>
+                    <span>Subscribe to Newsletter</span>
+                </a>
+                <a href="https://medium.com/dotnetcircuit" target="_blank" rel="noopener noreferrer" 
+                   class="bg-transparent hover:bg-slate-800 text-slate-300 font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3 border-2 border-slate-700">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M5.5 4.184h.953c.482 0 .867.384.867.867v5.86c0 .482-.385.867-.867.867H5.5v1.278h4.088V12h-.924c-.49 0-.882-.393-.882-.882V5.05c0-.49.392-.882.882-.882h.924V3H5.5v1.184Z"/><path d="M14.282 3h-2.9v1.184h2.173c.473 0 .858.385.858.858v5.135c0 .473-.385.858-.858.858h-2.173V12h2.9c1.235 0 2.238-1.002 2.238-2.238V5.238C16.52 4.002 15.517 3 14.282 3Z"/><path d="M2.52 3h-1.5c-.827 0-1.5.673-1.5 1.5v6c0 .827.673 1.5 1.5 1.5h1.5c.827 0 1.5-.673 1.5-1.5v-6c0-.827-.673-1.5-1.5-1.5Zm-1.5 8.184V4.184h1.5v7H1.02Z"/></svg>
+                    <span>Explore on Medium</span>
+                </a>
+            </div>
+
+            <!-- Recent Articles Section -->
+            <div class="w-full">
+                <h2 class="text-2xl font-bold text-white mb-6 text-center">Latest Articles</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    
+                    <a href="https://substack.com/home/post/p-176759866" target="_blank" rel="noopener noreferrer" class="block glass-card p-6 rounded-xl hover:border-blue-500/80 transition-all duration-300 group">
+                        <span class="inline-block bg-blue-500/20 text-blue-300 text-xs font-semibold px-2 py-1 rounded-full mb-3">Substack</span>
+                        <h3 class="font-bold text-lg text-white mb-2 group-hover:text-blue-400 transition-colors">Machine Learning in .Net (ML.Net)</h3>
+                        <p class="text-slate-400 text-sm">New AI models are constantly being released, and major tech companies are constantly competing to develop their own capabilities. This has prompted me to consider how I can leverage AI to enhance my applications.</p>
+                    </a>
+
+                    <!-- Article 2 Template -->
+                    <a href="https://medium.com/dotnetcircuit/retrieval-augmented-generation-rag-in-generative-ai-6bf526bd71fe" target="_blank" rel="noopener noreferrer" class="block glass-card p-6 rounded-xl hover:border-green-500/80 transition-all duration-300 group">
+                        <span class="inline-block bg-green-500/20 text-green-300 text-xs font-semibold px-2 py-1 rounded-full mb-3">Medium</span>
+                        <h3 class="font-bold text-lg text-white mb-2 group-hover:text-green-400 transition-colors">Retrieval-Augmented Generation (RAG) in Generative AI</h3>
+                        <p class="text-slate-400 text-sm">Retrieval-Augmented Generation (RAG) is transforming how generative AI models, especially large language models (LLMs), deliver accurate, relevant, and trustworthy outputs.</p>
+                    </a>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="w-full max-w-3xl mx-auto text-center mt-16 text-slate-500">
+             <!-- Social Links: Replace 'YOUR_..._LINK' with your actual profile URLs -->
+            <div class="flex justify-center gap-6 mb-4">
+                <a href="https://github.com/DileepSreepathi" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors"><span class="sr-only">GitHub</span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+                <a href="https://www.linkedin.com/in/dileepsreepathi/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors"><span class="sr-only">LinkedIn</span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg></a>
+            </div>
+            <p>&copy; <span id="year"></span> Dotnet Circuit. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
+
